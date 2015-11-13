@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BookBlue">#ff039be5</color>
+    <color name="EasyGrey">#ff808080</color>
+    <color name="GameGreen">#ff689f38</color>
+    <color name="MusicOrange">#ffef6c00</color>
+    <color name="MovieRed">#ffed3b3b</color>
+    <color name="NewsViolet">#ff536dfe</color>
+    <color name="TextBlack">#ff212121</color>
+    <color name="StarGrey">#ffb7b7b7</color>
+</resources>

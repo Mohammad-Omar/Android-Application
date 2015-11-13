@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">iGait</string>
+
+    <!-- activity titles -->
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+
+    <!-- action bar -->
+    <string name="action_search">Search Patients</string>
+
+    <!-- default strings -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- gait health place holders -->
+    <string name="box">■</string>
+    <string name="pie_empty">○</string>
+    <string name="pie_fourth">◔</string>
+    <string name="pie_half">◑</string>
+    <string name="pie_three_fourths">◕</string>
+    <string name="pie_full">●</string>
+
+    <!-- item info holders -->
+    <string name="info_left">Info left</string>
+    <string name="info_right">Info right</string>
+    <string name="separator">-</string>
+
+    <!-- text descriptions for image views -->
+    <string name="patient_image">patient image</string>
+    <string name="priority">priority</string>
+    <string name="video">video</string>
+
+    <!-- standard strings -->
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-enter Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="office_address">Office Address</string>
+
+    <!-- login activities -->
+    <string name="welcome">Welcome to\nthe iGait App</string>
+    <string name="retrieve_password">Enter E-mail to\nRetrieve Password</string>
+    <string name="enter_info">Enter Information\n to Register</string>
+    <string name="submit">Submit</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password</string>
+
+</resources>

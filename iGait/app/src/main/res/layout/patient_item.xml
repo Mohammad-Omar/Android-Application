@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewPatientImage"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:contentDescription="@string/patient_image"
+        android:src="@drawable/ic_account_circle_black_48dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/LinearLayoutGaitHealth"
+        android:layout_alignTop="@+id/imageViewPatientImage"
+        android:layout_toRightOf="@+id/imageViewPatientImage"
+        android:layout_alignBottom="@+id/imageViewPatientImage">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/pie_full"
+            android:id="@+id/textViewC1"
+            android:textSize="45sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/NewsViolet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/box"
+            android:id="@+id/textViewG1"
+            android:textSize="45sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textColor="@color/EasyGrey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/box"
+            android:id="@+id/textViewG2"
+            android:gravity="center_vertical"
+            android:textSize="45sp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/EasyGrey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/box"
+            android:id="@+id/textViewG3"
+            android:gravity="center_vertical"
+            android:textSize="45sp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/EasyGrey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/box"
+            android:id="@+id/textViewG4"
+            android:gravity="center_vertical"
+            android:textSize="45sp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/EasyGrey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayoutInfo"
+        android:layout_below="@+id/imageViewPatientImage"
+        android:layout_alignLeft="@+id/imageViewPatientImage">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/info_left"
+            android:id="@+id/textViewInfoLeft"
+            android:gravity="center_vertical"
+            android:textColor="@color/TextBlack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/separator"
+            android:id="@+id/textViewSeparator"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/info_right"
+            android:id="@+id/textViewInfoRight"
+            android:gravity="center_vertical"
+            android:textColor="@color/TextBlack" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewPriorityNotif"
+        android:layout_alignBottom="@+id/LinearLayoutInfo"
+        android:src="@drawable/ic_report_problem_black_18dp"
+        android:minHeight="18dp"
+        android:minWidth="18dp"
+        android:maxWidth="18dp"
+        android:maxHeight="18dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/LinearLayoutInfo"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/priority" />
+
+</RelativeLayout>
